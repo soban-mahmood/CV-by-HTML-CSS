@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border box;
+}
+body{
+   min-height: 100vh;
+    
+    background-color: #97d1dd;
+    display: flex;
+    justify-content: center;
+     align-items: center;
+
+}
+.container{
+position: relative;
+margin: 50px;
+width: 100%;
+max-width: 1000px;
+min-height: 1000px;
+background-color: #fff;
+display: grid;
+grid-template-columns: 1fr 2fr;
+box-shadow: 0px 35px 55px rgba(0,0, 0, 0.1);
+}
+.container .left_side{
+    position: relative;
+    background-color: #435585;
+    padding: 40px;
+}
+.profile_text{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.4) ;
+    
+}.profile_text h2{
+    color: #fff;
+    font-size: 1.5rem;
+    padding-top: 5px;
+    text-transform: uppercase;
+    text-align: center ;
+    line-height: 1rem;
+    font-weight: 600;
+}
+.profile_text h2 span{
+    font-size: 0.8rem;
+    font-weight: 500;
+    
+}
+
+.profile_text .img_box img{
+    border-radius: 50%;
+    
+}
+
+
+
+.title{
+    padding: 10px;
+    margin-left: -20px;
+    color: #fff;
+    font-size:1.3rem ;
+    font-weight: 800;
+}
+.contact_info{
+    margin-top: 40px;
+}
+.contact_info .text{
+    color: #ffffffbd;
+    font-size: 1.3rem;
+    letter-spacing: 1px;
+
+}
+.contact_info i{
+    color:  #3a6fff;
+    font-size: 1.rem;
+    margin-right: 5px;
+}
+
+.study {
+    margin-top: 50px;
+}
+.study span{
+    color: #ffff;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+.study h2{
+    color:  #000000;
+    margin-top: 20px;
+}
+.study h4{
+    margin-top:8px ;
+    color:#ffffffbd ;
+}
+.container .right_side{
+    position: relative; 
+    background-color:#fff;
+    padding: 40px;}
+
+    .right_side h2{
+margin-bottom: 15px;
+
+    }
+    .right_side h3{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .title2{
+        margin-top: 20px;
+    }
+    .title3 h2{
+        color: #3a6fff;
+    }
+    .title3 p{
+        color:rgba(120, 139, 151, 0.741) ;
+    }
